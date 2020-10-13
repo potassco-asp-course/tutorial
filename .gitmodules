@@ -25,3 +25,6 @@
 [submodule "include/modeling"]
 	path = include/modeling
 	url = ../modeling
+[submodule "include/ezasp"]
+	path = include/ezasp
+	url = ../ezasp
