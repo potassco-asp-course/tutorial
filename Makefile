@@ -1,6 +1,9 @@
 all:
 	latexmk main.tex -pdf
 
+pdflatex:
+	pdflatex main.tex
+
 watch:
 	latexmk main.tex -pdf -pvc
 
