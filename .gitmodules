@@ -1,6 +1,3 @@
-[submodule "include/motivation"]
-	path = include/motivation
-	url = ../motivation
 [submodule "include/logos"]
 	path = include/logos
 	url = https://github.com/krr-up/logos.git
@@ -13,18 +10,6 @@
 [submodule "include/organization"]
 	path = include/organization
 	url = ../organization
-[submodule "include/administration"]
-	path = include/administration
-	url = ../administration
-[submodule "include/systems"]
-	path = include/systems
-	url = ../systems
-[submodule "include/introduction"]
-	path = include/introduction
-	url = ../introduction
-[submodule "include/modeling"]
-	path = include/modeling
-	url = ../modeling
 [submodule "include/ezasp"]
 	path = include/ezasp
 	url = ../ezasp
