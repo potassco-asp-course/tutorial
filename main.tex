@@ -48,12 +48,12 @@ ezasp%
 ,goodbye,bibliography}
 % ----------------------------------------------------------------------
 \AtBeginSection{
-      \begin{frame}{Outline}
-              \bigskip
-                  \vfill
-                      \tableofcontents[currentsection]
-                        \end{frame}
-                    }
+  \begin{frame}{Outline}
+%   \bigskip
+%   \vfill
+    \tableofcontents[currentsection]
+  \end{frame}
+}
 
 \begin{document}
 % ----------------------------------------------------------------------
@@ -62,13 +62,16 @@ ezasp%
 \pgfdeclareimage[height=0.5cm]{potasscologo}{potassco_logo_lightblue}
 \logo{\pgfuseimage{potasscologo}}
 % ----------------------------------------------------------------------
-\begin{frame}{Outline}
-   \bigskip
-   \vfill
-   \tableofcontents
-\end{frame}
-\input{./ezasp}
-%\input{./ezasp-addendum}
+%
+%\begin{frame}{Outline}
+%   \bigskip
+%   \vfill
+%   \tableofcontents
+%\end{frame}
+%\input{./ezasp}
+%
+\input{./ezasp-addendum}
+%
 \end{document}
 % ----------------------------------------------------------------------
 %
